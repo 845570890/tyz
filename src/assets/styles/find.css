@@ -1,0 +1,179 @@
+/* 更多搜索头部组件 */
+.find_header{
+  display: flex;
+  border-bottom: 1px solid #efefef; 
+}
+.find_position{
+  position: relative;
+}
+/* logo */
+.find_header div:first-child div{
+  background: url(../image/logo-new204.png) no-repeat;
+  width: 130px;
+  height: 30px;
+  background-size: 102px;
+  margin: 12px 103.5px 7px 15px;
+}
+/* 官网首页 */
+.find_header div:nth-child(2){
+  margin-top: 17px;
+  font-size: 15px;
+}
+.find_header div:nth-child(2) span{
+  padding-right: 15px;
+  border-right: 1px solid #efefef;
+  color: #ff9d00;
+}
+/* 搜索图标 */
+.find_header div:nth-child(3){
+  width: 50px;
+  height: 40px;
+}
+.find_header div:nth-child(3) div{
+  background: url(../image/i_head5.png);
+  background-size: 100px;
+  height: 90px;
+  position: relative;
+  top: -50px;
+}
+/* 更多搜索详情页 */
+.find_find{
+  background: #f2f2f2;
+  width: 345px;
+  margin: 10px 15px;
+}
+/* 搜索文本框 */
+.find_find input{
+  background: url(../image/find/i_search.png) no-repeat 132px 8px;
+  background-size: 13px;
+  border: none;
+  font-size: 12px;
+  text-align: center;
+  width: 340px;
+  padding: 7px 0 7px 13px;
+  color: #696969;
+}
+/* 顶部图片 */
+.find_bg{
+  height: 150px;
+}
+.find_bg img{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+}
+.find_bg div{
+  display: flex;
+  background: -webkit-linear-gradient(top,transparent,rgba(0,0,0,0.6));
+  position: relative;
+  top: 95px;
+  height: 55px;
+}
+.find_bg p{
+  width: 320px;
+  padding: 18px 0 0 15px;
+  font-size: 18px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 图片标题 */
+.find_bg span{
+  margin: 18px 0 0 12px;
+  background: url(../image/find/i_index.png) no-repeat;
+  background-size: 75px;
+  width: 13px;
+  height: 20px;
+}
+/* 热门目的地 */
+.find_destination{
+  padding: 0 15px;
+}
+.find_destination h1{
+  font-size: 20px;
+  color: #111;
+}
+.find_destination span{
+  width: 28px;
+  height: 21px;
+  background: url(../image/find/i_index.png) no-repeat 9px -19px;
+  background-size: 75px;
+}
+.find_recommend{
+  padding: 29px 0 30px 0;
+  border-bottom: 1px dotted #ddd;
+}
+.find_fire{
+  justify-content: center;
+  display: flex;
+  padding-bottom: 15px;
+}
+.find_recommend p{
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+}
+/* 清除滚动条 */
+::-webkit-scrollbar {display:none}
+/* 目的地导航 */
+.find_overflow{
+  overflow: auto;
+}
+ .find_navbar .mint-navbar{
+  width: 650px;
+  height: 50px;
+  padding-left: 15px;
+  text-align: center;
+}
+.find_overflow .mint-navbar .mint-tab-item{
+  padding: 0;
+}
+.find_navbar .mint-tab-item{
+  color: #696969;
+  border: none !important;
+  text-align: left;
+}
+.find_navbar .is-selected {
+  color: #ff9d00 !important;
+}
+.find_navbar .mint-tab-item-label{
+  height: 11px;
+  font-size: 16px !important;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+.is-selected p{
+  margin-top: 7px;
+  width: 100%;
+  height: 2px;
+  background: #ff9d00;
+}
+.Hong_Kong .mint-tab-item-label{margin-left: -21px;}
+.Japan .mint-tab-item-label{margin-left: -26px;}
+.Southeast_Asia .mint-tab-item-label{margin-left: -46.5px;}
+.South_Asia .mint-tab-item-label{margin-left: -52px;}
+.Europe .mint-tab-item-label{margin-left: -36.5px;}
+.Australia .mint-tab-item-label{margin-left: -21px;}
+/* 导航部分 */
+.find_starnav{
+  margin-top: 15px;
+}
+.find_starnav .mint-tab-container-item{
+  display: flex;
+  width: 375px;
+  flex-wrap: wrap;
+}
+.find_item img{
+  width: 103px;
+  height: 85px;
+  margin-left: 15px;
+}
+.find_item p{
+  font-size: 15px;
+  color: #111;
+  text-align: center;
+  padding: 14px 0 30px 15px;
+}

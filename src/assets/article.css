@@ -1,0 +1,56 @@
+.main .guideflow {
+    font-family: PingFang SC;
+    padding-left: 5px;
+    border-left: #ffdb53 solid 3px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.533rem;
+    background: #fff;
+    margin-left: 15px;
+}
+.articleItem-header{
+    padding: 11.25px 56.25px  38px 15px;
+    font-size:  19px;
+    color: #111;
+    line-height: 1.4em;
+    max-height: 1.3rem;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.articleItem-wrapper{
+    display: flex;
+    padding: 9px 15px 15px;
+}
+.articleItem-wrapper img{
+    width: 130px;
+    height: 90px;
+}
+.articleDes{
+    height: 90px;
+    color: #999;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.summary{
+    overflow: hidden;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    padding-top: 5px;
+    margin-bottom: 7px;
+}
+.author{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.author img{
+    width: 19.98px;
+    height: 19.98px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

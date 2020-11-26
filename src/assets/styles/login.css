@@ -1,0 +1,276 @@
+
+/* 登录组件 */
+.login_nav,.common_nav,.msg_nav{
+    margin: 0 9px;
+}
+/* logo */
+.login_logo{
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    background: url(../image/logo200.png) no-repeat;
+    background-size: 100px;
+}
+/* 顶部选项卡 */
+.common_login,.msg_login{
+    color: #999;
+}
+.register_login{
+    color: #ffba33;
+}
+.login_nav .router-link-exact-active{
+    color: #ffba33 !important;
+}
+.login_nav .mint-navbar{
+    background: #fafafa;
+    margin-bottom: 31px;
+}
+.login_nav .mint-tab-item{
+    border-top: 2px solid #dadada;
+    border-bottom: none !important;
+    padding: 12px 0 !important;
+}
+
+.login_nav .mint-tab-item.is-selected{
+    border-top: 2px solid #ffba33;
+    background: #fff;
+    color: #ffba33 !important;
+}
+.login_nav .mint-tab-item-label{
+    font-size: 15px !important;
+}
+/* 普通登录面板 */
+.common_nav .mint-cell,.msg_nav .mint-cell,.register_phone .mint-cell,.regist .mint-cell{
+    border:1px solid #dadada;
+    min-height: 43px;
+}
+.common_phone ::placeholder,.common_pawd ::placeholder,.forget_phone ::placeholder,.msg_phone ::placeholder,
+.msg_mage ::placeholder,.msg_pawd ::placeholder,.regist_name ::placeholder,.regist_pawd ::placeholder,
+.regist_msg ::placeholder,.register_phone ::placeholder{
+    color: #C7C7C7;
+}
+/* 普通登录 */
+.common_phone,.msg_phone{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.common_phone .mint-field-core,.common_pawd .mint-field-core{
+    padding: 0 1px;
+}
+.regist_name{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.common_pawd,.msg_pawd,.regist_msg{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.common_pawd{
+    margin-top: -1px;
+}
+.msg_phone .mint-field-core,.msg_mage .mint-field-core,.msg_pawd .mint-field-core{
+    padding: 0 1px  !important;
+}
+.msg_mage,.msg_pawd,.login_btn .mint-button-text{
+    margin-top: -1px;
+}
+.shadow{
+    z-index: 3;
+    border-radius:5px; 
+    box-shadow: 0 0 5px 0 rgb(255, 0, 0);
+}
+/* 错误 */
+.common_error{
+    color: #a94442;
+    background-color: #f2dede;
+    padding: 6px 10px;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 16px;
+    line-height: 18px;
+}
+/* 注册 */
+.register_phone{
+    padding: 0 9px !important;
+    border-radius: 5px !important; 
+}
+.register_phone .mint-cell-wrapper{
+    padding: 0px !important;
+}
+.regist{
+    padding: 0 9px !important;
+}
+.regist_name,.regist_pawd{
+    border-bottom: none;
+}
+.regist_name .mint-cell-wrapper,.regist_pawd .mint-cell-wrapper,.regist_msg .mint-cell-wrapper{
+    padding-left: 9px !important;
+}
+/* 忘记密码 */
+.common_forget,.register_forget{
+    font-size: 12px;
+    text-align: right;
+    padding: 3px 9px 0 0;
+}
+.register_forget{
+    padding: 3px 9px 0 0;
+}
+.fourget_a{
+    color: #999;
+}
+/* 登录按钮 */
+.btn{
+    padding: 0 9px;
+}
+.login_btn,.regist_btn{
+    margin: 19px 0 10px 0 !important;
+}
+.register_login_btn,.regist_btn{
+    margin: 20px 0 10px 0 !important;
+}
+.login_btn label,.register_login_btn label,.regist_btn label{
+    color: #fff !important;
+}
+
+.login_btn,.register_btn,.register_login_btn,.regist_btn{
+    background-color: #ffba33 ;
+    border: 1px solid #d8b165;
+    color: #ffba33 !important;
+    border-radius:5px;
+    height: 36px !important;
+    line-height: 32px;
+}
+.register_btn{
+    border: 1px solid #ffba33 !important;
+}
+.regist_name,.regist_pawd{
+    border-bottom: 2px solid #dadada; 
+}
+.regist_pawd,.regist_msg{
+    margin-top: -2px;
+}
+/* 第三方登录 */
+.other{
+    border-top: 1px solid #d8d8d8;
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.other span{
+    font-size: 12px;
+    color: #CCC;
+    background-color: #fff;
+    padding: 0 5px;
+    margin-top: -9px;
+    margin-left: 122px;
+    position: absolute;
+}
+/* 登录方式 */
+.other_login{
+    display: flex;
+    width: 100%;
+}
+.other_login .router-link-active{
+    width: 50%;
+}
+/* 微博QQ */
+.other_weibo,.other_QQ{
+    margin: 1px 16px 0 15px;
+    border: 1px solid #e6e5e5;
+    background-color:  #f3f3f3;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+.other_QQ{
+    margin: 1px 15px 0 14px;
+}
+.other_weibo span,.other_QQ span{
+    width: 40px;
+    height: 38px;
+    margin-top: 1px;
+    margin-bottom: -3px;
+    display: inline-block;
+    background: url(../image/connect_ico.png) no-repeat;
+    background-size: 130px 30px;
+    background-position: 6px 9px;
+}
+.other_QQ span{
+    background-position: -43px 9px;
+}
+/* 短信验证码 */
+.get_code{
+    width: 110px;
+    height: 33px;
+    line-height: 33px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #ff8a00;
+    font-size: 12px;
+    color: #fff;
+    margin-right: -5px;
+}
+.miss_register{
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+    padding: 4px 0 0 0;
+}
+/* 忘记密码——手机号 */
+.forget{
+    padding: 22px 25px 0 25px;
+}
+.forget_phone .mint-cell-wrapper{
+    padding: 0 !important;
+    margin-top: -1px;
+}
+.forget_phone .mint-field-core{
+    padding: 0 !important;
+    margin-top: 0px;
+}
+.forget_phone{
+    border: none;
+    border-bottom: 1px solid #E3E5E8;
+}
+.forget_error,.register_error{
+    color: #a94442;
+    background-color: #f2dede;
+    padding: 6px 10px;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 16px;
+    line-height: 18px;
+}
+/* 立即找回 */
+.forget_btn{
+    margin-top: 20px;
+    background: linear-gradient(135deg,rgba(255,226,76,1) 0%,rgba(255,219,38,1) 100%);
+    font-size: 18px;
+    height: 44px;
+    line-height: 34px;
+}
+/* 提示 */
+.tips{
+    margin: 20px 0;
+    font-size: 14px;
+    color: #696969;
+    line-height: 22px;
+}
+/* 获取和失去焦点事件 */
+.outline{
+    border: 2px solid #E59700 !important;
+    border-radius: 5px;
+    min-height: 41px;
+    margin-left: -1px;
+    z-index: 1;
+}
+.btn_outline{
+    border: 2px solid #E59700 !important;
+}
